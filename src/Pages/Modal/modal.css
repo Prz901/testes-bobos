@@ -1,0 +1,64 @@
+.teste {
+  color: teal;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.content-page {
+  z-index: 0;
+}
+
+.content-basic {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.buttom-hamburguer {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.buttom-hamburguer:hover {
+  color: teal;
+}
+
+.modal-open {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: teal;
+  width: 150px;
+  height: 100vh;
+}
+
+.content-modal {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.button-close {
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+.button-close:hover {
+  color: aquamarine;
+}
+
+.modal-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.items {
+  margin-top: 5px;
+}

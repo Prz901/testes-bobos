@@ -1,0 +1,59 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px;
+}
+
+.botao {
+  width: 200px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.fundo1 {
+  background-color: var(--color-danger);
+  color: white;
+  cursor: pointer;
+
+  animation-name: background-button;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes background-button {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.fundo2 {
+  background: var(--color-primary-400);
+  color: white;
+  cursor: pointer;
+}
+
+.fundo3 {
+  background: var(--color-sucess);
+  color: white;
+  cursor: pointer;
+}

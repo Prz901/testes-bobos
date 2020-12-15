@@ -1,0 +1,64 @@
+#content-page {
+  height: 100vh;
+  background: ghostwhite;
+  width: 100%;
+  display: flex;
+}
+
+#content-page .navbar-lateral {
+  width: 18%;
+}
+
+#content-page .navbar-lateral .navbar-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  height: 6%;
+  background: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-page .navbar-lateral .navbar-content {
+  height: 94%;
+  background: #333333;
+}
+
+#content-page .navbar-lateral .navbar-profile {
+  display: flex;
+  align-items: center;
+  padding: 14px 10px;
+}
+
+#content-page .navbar-lateral .navbar-profile > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#content-page .navbar-lateral .navbar-content .navbar-profile p {
+  color: white;
+}
+
+#content-page .navbar-lateral .navbar-profile .profile-status {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+#content-page .navbar-lateral .navbar-profile .profile-status .profile-name {
+  color: white;
+  padding-bottom: 10px;
+}
+
+#content-page .navbar-lateral .navbar-content .navbar-input {
+  padding: 8px 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background: #777777;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 90%;
+}
